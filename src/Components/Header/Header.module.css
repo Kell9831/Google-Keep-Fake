@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  height: 70px;
+  padding: 12px 32px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  /* width: 1377px; */
+  height: 66px;
+  border: 1px solid #D1D1D1;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.headerContent {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.25px;
+}
+
+.userName{
+  color: #18181b;
+  font-weight: bold;
+}
+.buttonExit {
+  color: #18181b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+/* Width utilities */
+.full-width {
+  width: 100% !important;
+}
+
+.grey {
+  background-color: var(--background-gray);
+}
+
+.white {
+  background-color: var(--background-left);
+}

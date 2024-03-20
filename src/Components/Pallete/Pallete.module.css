@@ -1,0 +1,10 @@
+.cardGroup {
+  display: flex;
+  margin-top: auto;
+  gap: 30px;
+}
+
+.cardIcon {
+  cursor: pointer;
+  padding: 0.38rem;
+}

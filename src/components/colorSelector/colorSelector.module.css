@@ -1,0 +1,26 @@
+.colorMain {
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    left: -55px;
+}
+
+.colorBox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 155px;
+    height: 65px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    cursor: pointer;
+}
+
+.colorOption {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+}

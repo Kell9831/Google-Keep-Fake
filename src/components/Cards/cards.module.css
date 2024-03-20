@@ -1,0 +1,66 @@
+.cardbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cardItems {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 252px;
+  height: 226px;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid none;
+}
+
+.cardUnit {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  height: 100vh;
+  gap: 40px;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cardText h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.cardText p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+
+.topCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topCard img {
+  cursor: pointer;
+}
+
+.cardGroup {
+  display: flex;
+  margin-top: auto;
+  gap: 30px;
+}
+
+.cardIcon {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

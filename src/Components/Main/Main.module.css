@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  border: 1px solid var(--border);
+  gap: 3rem;
+  min-height: 100vh;
+  /* eliminar el heigh*/
+  /* height: 100rem; */
+}
+
+.main-container {
+  flex-grow: 1;
+  background-color: var(--background-gray);
+}

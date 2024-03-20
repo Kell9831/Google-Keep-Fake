@@ -1,0 +1,13 @@
+:root {
+  --radius-unit: 0.25rem; /* 4px */
+
+  --rounded-none: 0;
+  --rounded-sm: calc(var(--radius-unit) * 0.5);
+  --rounded: calc(var(--radius-unit) * 1);
+  --rounded-md: calc(var(--radius-unit) * 1.5);
+  --rounded-lg: calc(var(--radius-unit) * 2);
+  --rounded-xl: calc(var(--radius-unit) * 3);
+  --rounded-2xl: calc(var(--radius-unit) * 4);
+  --rounded-3xl: calc(var(--radius-unit) * 6);
+  --rounded-full: 9999px;
+}
